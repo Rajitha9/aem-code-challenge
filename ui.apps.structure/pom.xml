@@ -47,6 +47,9 @@
 
                         <!-- Immutable context-aware configurations -->
                         <filter><root>/apps/settings</root></filter>
+						
+						<!-- oak index definition -->
+						<filter><root>/oak:index</root></filter>
 
                     </filters>
                 </configuration>

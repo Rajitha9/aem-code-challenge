@@ -1,0 +1,16 @@
+<div class="cq-placeholder cq-marker-start" data-emptytext="News Feed" data-sly-test="${wcmmode.edit && !properties.rootPath}"></div>
+<sly data-sly-use.model="com.anf.core.models.NewsFeedModel">
+    <div class="aem-Grid aem-Grid--12" data-sly-list.newslist="${model.newsFeed}">
+        <div class="aem-GridColumn aem-GridColumn--default--3">
+
+            <img data-sly-test="${newslist.image}" class="icon" src="${newslist.image}">
+
+            <h4 class="title" data-sly-test="${newslist.title}"><a href="${newslist.pagePath}" target="_blank">${newslist.title}</a></h4>
+            <p class="eyebrow">
+                ${newslist.currentDate}
+                <span data-sly-test="${newslist.author}"> || ${newslist.author}</span>
+            </p>
+            <p class="description" data-sly-test="${newslist.description}">${newslist.description}</p>
+        </div>
+    </div>
+</sly>

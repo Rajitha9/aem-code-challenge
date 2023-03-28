@@ -1,0 +1,41 @@
+<div data-sly-use.clientLib="${'/libs/granite/sightly/templates/clientlib.html'}">
+    <sly data-sly-call="${clientLib.js @ categories='anf-code-challenge.userform'}"></sly>
+    <coral-alert class="alert-success" variant="success">
+        <coral-alert-header>Success</coral-alert-header>
+        <coral-alert-content>Details got saved in repository</coral-alert-content>
+    </coral-alert>
+    <coral-alert class="alert-error" variant="error">
+        <coral-alert-header>Error</coral-alert-header>
+        <coral-alert-content>You are not eligible</coral-alert-content>
+    </coral-alert>
+
+    <form class="coral-Form coral-Form--aligned u-columnLarge" id="userform">
+        <section class="coral-Form-fieldset">
+            <input is="coral-textfield" id="resourcePath" name="resourcePath" value="${currentPage.getPath}" disabled>
+            <div class="coral-Form-fieldwrapper">
+                <label class="coral-Form-fieldlabel" id="label-aligned-first-name">First Name</label>
+                <input is="coral-textfield" class="coral-Form-field" placeholder="Enter your First Name" name="firstName" labelledby="label-aligned-first-name">
+            </div>
+            <div class="coral-Form-fieldwrapper">
+                <label class="coral-Form-fieldlabel" id="label-aligned-last-name">Last Name</label>
+                <input is="coral-textfield" class="coral-Form-field" placeholder="Enter your First Name" name="lastName" labelledby="label-aligned-last-name">
+            </div>
+            <div class="coral-Form-fieldwrapper">
+                <label class="coral-Form-fieldlabel" id="label-aligned-age">Age</label>
+                <input is="coral-textfield" class="coral-Form-field" placeholder="Enter your First Name" name="age" labelledby="label-aligned-age">
+            </div>
+            <div class="coral-Form-fieldwrapper">
+                <label id="label-aligned-country" class="coral-Form-fieldlabel">Country</label>
+                <coral-select name="country" placeholder="country" class="select-country"></coral-select>
+
+            </div>
+            <div class="coral-Form-fieldwrapper" id="country1">
+
+            </div>
+            <div class="coral-Form-fieldwrapper">
+                <label class="coral-Form-fieldlabel" id="label-aligned-textfield-empty"></label>
+                <button id="submit" is="coral-button" class="coral-Form-field" variant="cta">Submit</button>
+            </div>
+        </section>
+    </form>
+</div>

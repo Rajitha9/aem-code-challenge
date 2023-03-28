@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured">
+    <news_0
+        jcr:primaryType="nt:unstructured"
+        author="Norman Sheikh"
+        content="Sheikh Jassim also submits second bid after Sir Jim Ratcliffe"
+        description="Qatari banker Sheikh Jassim has joined Ineos owner Sir Jim Ratcliffe in submitting a second bid to buy Manchester United.&#xa;&#xa;A representative for Sheikh Jassim said on Saturday they put in a revised bid overnight."
+        title="Man Utd takeover latest"
+        url="https://www.bbc.com/sport/football/65054294"
+        urlImage="/content/dam/anf-code-challenge/exercise-2/news0.png"/>
+    <news_1
+        jcr:primaryType="nt:unstructured"
+        author="Alamy"
+        content=" Wales' new era begins in Croatia"
+        description="Some of the players have called it a &quot;new era,&quot; while boss Robert Page has talked of &quot;resetting and reframing&quot; as Wales begin life without Gareth Bale."
+        title="Euro 2024 qualifying"
+        url="https://www.bbc.com/sport/football/65046131"
+        urlImage="/content/dam/anf-code-challenge/exercise-2/news1.png"/>
+    <news_2
+        jcr:primaryType="nt:unstructured"
+        author="Sebastian Modak"
+        content="McIlroy &amp; Scheffler advance at World Match Play"
+        description="World number one Scottie Scheffler and Rory McIlroy both reach the WGC-Dell Technologies Match Play knockout stage with perfect records."
+        title="World Match Play Championship"
+        url="https://www.bbc.com/sport/golf/65069873"
+        urlImage="/content/dam/anf-code-challenge/exercise-2/new2.png"/>
+    <news_3
+        jcr:primaryType="nt:unstructured"
+        author="test"
+        content=""
+        description="When peace broke out among New York's gangs, breaking was born - but few foresaw it conquering the world and morphing into an Olympic sport."
+        title="How a New York gang truce spawned an Olympic sport"
+        url="https://www.bbc.com/sport/olympics/64987866"
+        urlImage="/content/dam/anf-code-challenge/exercise-2/news3.png"/>
+    <news_4
+        jcr:primaryType="nt:unstructured"
+        author="Alex Christian"
+        content="The firms where it didn’t work"
+        description="Nearly all firms that took part in the UK pilot are keeping reduced hours – but not all are fully embracing the new set-up."
+        title="Four-day workweek trial"
+        url="https://www.bbc.com/worklife/work-in-progress"
+        urlImage="/content/dam/anf-code-challenge/exercise-2/news4.png"/>
+    <news_5
+        jcr:primaryType="nt:unstructured"
+        author="Josie Cox"
+        content="The Pressure Keeping US Worker Silent"
+        description="A new law prevents companies from silencing former workers about their job experiences. The changes could be good – but they may not go far enough."
+        title="How we work"
+        url="https://www.bbc.com/worklife/article/20230316-why-some-us-workers-may-never-speak-out-against-employers"
+        urlImage="/content/dam/anf-code-challenge/exercise-2/news5.png"/>
+    <news_6
+        jcr:primaryType="nt:unstructured"
+        author="Amanda Ruggeri"
+        content="The rise of 'one-and-done' parenting"
+        description="Among social and economic considerations, more parents are foregoing siblings, choosing to stop at one child."
+        title="How we Live"
+        url="https://www.bbc.com/worklife/article/20230110-only-child-or-siblings-one-and-done"
+        urlImage="/content/dam/anf-code-challenge/exercise-2/news6.png"/>
+    <news_7
+        jcr:primaryType="nt:unstructured"
+        author="Norman Miller"
+        content="A fabled shellfish that nearly vanished"
+        description="Mainly found on New Zealand's North Island, this large clam treasured by Māori coastal communities nearly became extinct due to exploitation. But now, it might be on the way back."
+        title="Toheroa"
+        url="https://www.bbc.com/travel/article/20230322-toheroa-a-fabled-shellfish-that-nearly-vanished"
+        urlImage="/content/dam/anf-code-challenge/exercise-2/news7.png"/>
+    <news_8
+        jcr:primaryType="nt:unstructured"
+        author="Richard Levine"
+        content="The neighbourhood that epitomises New York"
+        description="Travellers may go to Central Park or Times Square to see New York City, but there's no better place to feel the city's DNA and understand how it started than here."
+        title="Jackson Heights"
+        url="https://www.bbc.com/travel/article/20230321-jackson-heights-the-neighbourhood-that-epitomises-new-york"
+        urlImage="/content/dam/anf-code-challenge/exercise-2/news8.png"/>
+    <news_9
+        jcr:primaryType="nt:unstructured"
+        author="Heather Jasper"
+        content="A one-of-a-kind route to Antarctica"
+        description="Spanish adventure athlete Antonio de la Rosa attempted to row alone through the roughest seas on the planet to Antarctica. Very little went according to plan."
+        title="Adventure"
+        url="https://www.bbc.com/travel/article/20230319-a-one-of-a-kind-route-to-antarctica"
+        urlImage="/content/dam/anf-code-challenge/exercise-2/news9.png"/>
+</jcr:root>

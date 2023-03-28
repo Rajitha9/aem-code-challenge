@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:oak="http://jackrabbit.apache.org/oak/ns/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="nt:unstructured">
+    <socialLucene/>
+    <workflowDataLucene/>
+    <slingeventJob/>
+    <jcrLanguage/>
+    <versionStoreIndex/>
+    <repMembers/>
+    <cqReportsLucene/>
+    <commerceLucene/>
+    <counter/>
+    <authorizables/>
+    <enablementResourceName/>
+    <cqPageLucene-1-custom-1
+        jcr:primaryType="oak:QueryIndexDefinition"
+        async="[async]"
+        compatVersion="{Long}2"
+        evaluatePathRestrictions="{Boolean}true"
+        includedPaths="/content/anf-code-challenge/us/en"
+        reindexCount="{Long}2"
+        seed="{Long}-1413164779523850110"
+        type="lucene">
+        <indexRules jcr:primaryType="nt:unstructured">
+            <cq:Page jcr:primaryType="nt:unstructured">
+                <properties jcr:primaryType="nt:unstructured">
+                    <anfCodeChallenge
+                        jcr:primaryType="nt:unstructured"
+                        name="jcr:content/anfCodeChallenge"
+                        notNullCheckEnabled="{Boolean}true"
+                        propertyIndex="{Boolean}true"
+                        type="String"/>
+                </properties>
+            </cq:Page>
+        </indexRules>
+    </cqPageLucene-1-custom-1>
+    <externalPrincipalNames/>
+    <cmLucene/>
+    <cqProjectLucene/>
+    <ntFolderDamLucene/>
+    <acPrincipalName/>
+    <uuid/>
+    <damAssetLucene/>
+    <rep:policy/>
+    <cqPayloadPath/>
+    <nodetypeLucene/>
+    <nodetype/>
+    <ntBaseLucene/>
+    <reference/>
+    <principalName/>
+    <cqTagLucene/>
+    <lucene/>
+    <repTokenIndex/>
+    <externalId/>
+    <authorizableId/>
+    <cqPageLucene/>
+</jcr:root>

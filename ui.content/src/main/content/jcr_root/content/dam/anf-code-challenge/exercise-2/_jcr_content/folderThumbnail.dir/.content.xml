@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:file">
+    <jcr:content
+        dam:folderThumbnailPaths="[/content/dam/anf-code-challenge/exercise-2/news9.png,/content/dam/anf-code-challenge/exercise-2/news8.png,/content/dam/anf-code-challenge/exercise-2/news7.png]"
+        jcr:primaryType="nt:unstructured"
+        bgcolor="{Long}-1"
+        height="{Long}240"
+        width="{Long}280"/>
+</jcr:root>

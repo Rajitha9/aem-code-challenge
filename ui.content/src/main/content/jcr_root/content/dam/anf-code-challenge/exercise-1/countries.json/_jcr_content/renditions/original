@@ -1,0 +1,23 @@
+{
+    "countries": [{
+            "text": "Afghanistan",
+            "value": "AF"
+        },
+        {
+            "text": "Åland Islands",
+            "value": "AX"
+        },
+        {
+            "text": "Albania",
+            "value": "AL"
+        },
+        {
+            "text": "Algeria",
+            "value": "DZ"
+        },
+        {
+            "text": "American Samoa",
+            "value": "AS"
+        }
+    ]
+}

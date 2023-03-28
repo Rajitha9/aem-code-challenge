@@ -1,0 +1,18 @@
+<div class="cq-placeholder cq-marker-start" data-emptytext="Exercise 3" data-sly-test="${wcmmode.edit && !properties.maxItems}"></div>
+<sly data-sly-use.model="com.anf.core.models.SearchAnfPageModel">
+
+    <h2>Data Fetch Using Query Builder</h2>
+    <ul data-sly-list.query="${model.pagesUsingQueryBuilder}">
+        <li>
+            <a href="${query.path}">${query.title}</a>
+        </li>
+    </ul>
+    <hr>
+    <h2>Data Fetch Using Sql2</h2>
+    <ul data-sly-list.query="${model.pagesUsingSql2}">
+        <li>
+            <a href="${query.path}">${query.title}</a>
+        </li>
+    </ul>
+
+</sly>
